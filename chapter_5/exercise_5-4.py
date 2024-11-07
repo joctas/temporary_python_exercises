@@ -5,7 +5,7 @@ count = 0
 
 for number in numbers:
     # checks if the amount of times a number appears in the list is higher than the value of count
-    if numbers.count(number) > 0:
+    if numbers.count(number) > count:
         count = numbers.count(number)
         most_repeated_number = number
 
